@@ -1,8 +1,5 @@
 extends Button
 
-
-
-
 func _on_pressed() -> void:
 	if Global.slider == 0:
 		Global.P += 1
