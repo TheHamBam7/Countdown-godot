@@ -1,14 +1,14 @@
 [gd_scene format=3 uid="uid://ck6bxnrsmrjwe"]
 
-[ext_resource type="Script" uid="uid://dpbacjtad3xug" path="res://Start.gd" id="1_06t4h"]
-[ext_resource type="Texture2D" uid="uid://bkvgf0qyror3r" path="res://kenney_ui-pack-space-expansion/PNG/Blue/Default/bar_round_small_m.png" id="1_7vrkn"]
+[ext_resource type="Texture2D" uid="uid://bkvgf0qyror3r" path="res://kenney_ui-pack-space-expansion/PNG/Blue/Default/bar_round_small_m.png" id="1_0g6oi"]
+[ext_resource type="Script" uid="uid://dpbacjtad3xug" path="res://Global/Start.gd" id="2_lhx2d"]
 
 [node name="Main menu" type="Node2D" unique_id=1373400424]
 
 [node name="BarRoundSmallM" type="Sprite2D" parent="." unique_id=838836416]
 position = Vector2(577.125, 324)
 scale = Vector2(71.984375, 40.375)
-texture = ExtResource("1_7vrkn")
+texture = ExtResource("1_0g6oi")
 
 [node name="Button" type="Button" parent="." unique_id=1065668044]
 offset_left = 310.0
@@ -16,7 +16,7 @@ offset_top = 346.0
 offset_right = 818.0
 offset_bottom = 474.0
 text = "Start"
-script = ExtResource("1_06t4h")
+script = ExtResource("2_lhx2d")
 
 [node name="Label" type="Label" parent="." unique_id=1744831086]
 offset_left = 292.0

@@ -1,26 +1,26 @@
 [gd_scene format=3 uid="uid://ch0o0cfifq0ru"]
 
-[ext_resource type="Texture2D" uid="uid://dvqyua0ms74hf" path="res://Libresprite/Hatch background.png" id="1_otd72"]
-[ext_resource type="Texture2D" uid="uid://cfbvn40rceglo" path="res://Libresprite/Hatch1.png" id="1_quomf"]
-[ext_resource type="Texture2D" uid="uid://byor12n3vw7xh" path="res://Libresprite/Hatch2.png" id="2_otd72"]
-[ext_resource type="Texture2D" uid="uid://df7sh38f6pnej" path="res://Libresprite/Hatch3.png" id="3_8dnm3"]
-[ext_resource type="Texture2D" uid="uid://jds1itjne5ss" path="res://Libresprite/Hatch4.png" id="4_4olc2"]
-[ext_resource type="Script" uid="uid://cjpmd4mpspndw" path="res://HatchClose.gd" id="5_he7no"]
+[ext_resource type="Texture2D" uid="uid://dvqyua0ms74hf" path="res://Libresprite/Hatch background.png" id="1_ketb2"]
+[ext_resource type="Texture2D" uid="uid://cfbvn40rceglo" path="res://Libresprite/Hatch1.png" id="2_y712s"]
+[ext_resource type="Texture2D" uid="uid://byor12n3vw7xh" path="res://Libresprite/Hatch2.png" id="3_r1877"]
+[ext_resource type="Texture2D" uid="uid://df7sh38f6pnej" path="res://Libresprite/Hatch3.png" id="4_3o0o4"]
+[ext_resource type="Texture2D" uid="uid://jds1itjne5ss" path="res://Libresprite/Hatch4.png" id="5_705do"]
+[ext_resource type="Script" uid="uid://cjpmd4mpspndw" path="res://Hatch/HatchClose.gd" id="6_n4ir8"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_c36b8"]
 animations = [{
 "frames": [{
 "duration": 2.0,
-"texture": ExtResource("1_quomf")
+"texture": ExtResource("2_y712s")
 }, {
 "duration": 2.0,
-"texture": ExtResource("2_otd72")
+"texture": ExtResource("3_r1877")
 }, {
 "duration": 2.0,
-"texture": ExtResource("3_8dnm3")
+"texture": ExtResource("4_3o0o4")
 }, {
 "duration": 2.0,
-"texture": ExtResource("4_4olc2")
+"texture": ExtResource("5_705do")
 }],
 "loop": 0,
 "name": &"Hatch",
@@ -32,14 +32,14 @@ animations = [{
 [node name="HatchBackground" type="Sprite2D" parent="." unique_id=1495816134]
 position = Vector2(0, -176)
 scale = Vector2(15, 15)
-texture = ExtResource("1_otd72")
+texture = ExtResource("1_ketb2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1789126505]
 unique_name_in_owner = true
 scale = Vector2(20, 20)
 sprite_frames = SubResource("SpriteFrames_c36b8")
 animation = &"Hatch"
-script = ExtResource("5_he7no")
+script = ExtResource("6_n4ir8")
 
 [node name="Button" type="Button" parent="." unique_id=536572087]
 anchors_preset = 15
