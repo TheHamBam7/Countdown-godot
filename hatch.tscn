@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://ch0o0cfifq0ru"]
+
+[ext_resource type="Texture2D" uid="uid://dvqyua0ms74hf" path="res://Libresprite/Hatch background.png" id="1_otd72"]
+[ext_resource type="Texture2D" uid="uid://cfbvn40rceglo" path="res://Libresprite/Hatch1.png" id="1_quomf"]
+[ext_resource type="Texture2D" uid="uid://byor12n3vw7xh" path="res://Libresprite/Hatch2.png" id="2_otd72"]
+[ext_resource type="Texture2D" uid="uid://df7sh38f6pnej" path="res://Libresprite/Hatch3.png" id="3_8dnm3"]
+[ext_resource type="Texture2D" uid="uid://jds1itjne5ss" path="res://Libresprite/Hatch4.png" id="4_4olc2"]
+[ext_resource type="Script" uid="uid://cjpmd4mpspndw" path="res://HatchClose.gd" id="5_he7no"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c36b8"]
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("1_quomf")
+}, {
+"duration": 2.0,
+"texture": ExtResource("2_otd72")
+}, {
+"duration": 2.0,
+"texture": ExtResource("3_8dnm3")
+}, {
+"duration": 2.0,
+"texture": ExtResource("4_4olc2")
+}],
+"loop": 0,
+"name": &"Hatch",
+"speed": 5.0
+}]
+
+[node name="Hatch" type="Node2D" unique_id=258526822]
+
+[node name="HatchBackground" type="Sprite2D" parent="." unique_id=1495816134]
+position = Vector2(0, -176)
+scale = Vector2(15, 15)
+texture = ExtResource("1_otd72")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1789126505]
+unique_name_in_owner = true
+scale = Vector2(20, 20)
+sprite_frames = SubResource("SpriteFrames_c36b8")
+animation = &"Hatch"
+script = ExtResource("5_he7no")
+
+[node name="Button" type="Button" parent="." unique_id=536572087]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -318.00003
+offset_top = -304.00003
+offset_right = -253.70001
+offset_bottom = -244.40004
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(10, 10)
+text = "
+"
+flat = true
+
+[node name="Timer" type="Timer" parent="Button" unique_id=754280460]
+wait_time = 2.0
+one_shot = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=825032752]
+
+[connection signal="pressed" from="Button" to="AnimatedSprite2D" method="_on_button_pressed"]
+[connection signal="timeout" from="Button/Timer" to="AnimatedSprite2D" method="_on_timer_timeout"]

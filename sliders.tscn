@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dcngitl2cyxln"]
+
+[ext_resource type="Texture2D" uid="uid://cw4xrxdmx84v2" path="res://Libresprite/Dragdot.png" id="1_wxq8j"]
+[ext_resource type="Texture2D" uid="uid://3ly63k0s7rs7" path="res://Libresprite/Dragline.png" id="2_bvrrn"]
+
+[node name="Sliders" type="Node2D" unique_id=142364745]
+
+[node name="Dragdot1" type="Sprite2D" parent="." unique_id=183211208]
+position = Vector2(-161, -77)
+texture = ExtResource("1_wxq8j")
+
+[node name="Dragdot2" type="Sprite2D" parent="." unique_id=250319856]
+position = Vector2(159, -16)
+texture = ExtResource("1_wxq8j")
+
+[node name="Dragdot3" type="Sprite2D" parent="." unique_id=1913938716]
+position = Vector2(-1, 128)
+texture = ExtResource("1_wxq8j")
+
+[node name="Dragline" type="Sprite2D" parent="." unique_id=2059207981]
+position = Vector2(-15, 0)
+scale = Vector2(10, 10)
+texture = ExtResource("2_bvrrn")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2054105976]
