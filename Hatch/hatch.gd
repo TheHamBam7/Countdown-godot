@@ -1,6 +1,5 @@
 extends Button
 
-
 func _on_pressed() -> void:
 	if Global.hatch == 0:
 		Global.hatch = 1

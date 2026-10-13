@@ -1,0 +1,337 @@
+[gd_scene format=3 uid="uid://5i7xalljq5om"]
+
+[ext_resource type="Texture2D" uid="uid://c12cgx4k8leyx" path="res://Speedometer/SpeedFrames/SpeedHand1.png" id="1_7ggnu"]
+[ext_resource type="Texture2D" uid="uid://c5qtyxt038pv8" path="res://Speedometer/SpeedFrames/SpeedHand2.png" id="2_y23jb"]
+[ext_resource type="Texture2D" uid="uid://ceaxf1w7e6nc6" path="res://Speedometer/SpeedFrames/SpeedHand3.png" id="3_hjhs7"]
+[ext_resource type="Texture2D" uid="uid://cd01ibh0pr04c" path="res://Speedometer/SpeedFrames/SpeedHand4.png" id="4_5kpi3"]
+[ext_resource type="Texture2D" uid="uid://dwrkc4wqsvj8i" path="res://Speedometer/SpeedFrames/SpeedHand5.png" id="5_3u168"]
+[ext_resource type="Texture2D" uid="uid://dtlcbjd3s5vha" path="res://Speedometer/SpeedFrames/SpeedHand6.png" id="6_f2c3v"]
+[ext_resource type="Texture2D" uid="uid://t8l5gb4uegx3" path="res://Speedometer/SpeedFrames/SpeedHand7.png" id="7_fb34l"]
+[ext_resource type="Texture2D" uid="uid://dog1qqh7kggdt" path="res://Speedometer/SpeedFrames/SpeedHand8.png" id="8_5kjuh"]
+[ext_resource type="Texture2D" uid="uid://bkcune6r60sq1" path="res://Speedometer/SpeedFrames/SpeedHand9.png" id="9_oeyny"]
+[ext_resource type="Texture2D" uid="uid://cokpv5s8hwcjc" path="res://Speedometer/SpeedFrames/SpeedHand10.png" id="10_w5472"]
+[ext_resource type="Texture2D" uid="uid://b2cpx7prfgv1e" path="res://Speedometer/SpeedFrames/SpeedHand11.png" id="11_20jcm"]
+[ext_resource type="Texture2D" uid="uid://dkf4rtpxwd6ep" path="res://Speedometer/SpeedFrames/SpeedHand12.png" id="12_mpsnu"]
+[ext_resource type="Texture2D" uid="uid://ddmkgxfpx0w2u" path="res://Speedometer/SpeedFrames/SpeedHand13.png" id="13_umura"]
+[ext_resource type="Texture2D" uid="uid://b47nya7uke2si" path="res://Speedometer/SpeedFrames/SpeedHand14.png" id="14_qi2at"]
+[ext_resource type="Texture2D" uid="uid://cg6poyo5x55lb" path="res://Speedometer/SpeedFrames/SpeedHand15.png" id="15_lry6l"]
+[ext_resource type="Texture2D" uid="uid://bhu6jjchlt2xs" path="res://Speedometer/SpeedFrames/SpeedHand16.png" id="16_c4g6a"]
+[ext_resource type="Texture2D" uid="uid://drflvvsbadspc" path="res://Speedometer/SpeedFrames/SpeedHand17.png" id="17_c25so"]
+[ext_resource type="Texture2D" uid="uid://t0x0t0leds2m" path="res://Speedometer/SpeedFrames/SpeedHand18.png" id="18_w3dwq"]
+[ext_resource type="Texture2D" uid="uid://cdtfvqjyj6p8x" path="res://Speedometer/SpeedFrames/SpeedHand19.png" id="19_af5rd"]
+[ext_resource type="Texture2D" uid="uid://hvsrwbp623s" path="res://Speedometer/SpeedFrames/SpeedHand20.png" id="20_5h0pf"]
+[ext_resource type="Texture2D" uid="uid://wv1w2qbox6q1" path="res://Speedometer/SpeedFrames/SpeedHand21.png" id="21_aqyst"]
+[ext_resource type="Texture2D" uid="uid://dsoil2fja5747" path="res://Speedometer/SpeedFrames/SpeedHand22.png" id="22_dfubo"]
+[ext_resource type="Texture2D" uid="uid://djqt27twlchxk" path="res://Speedometer/SpeedFrames/SpeedHand23.png" id="23_pcn06"]
+[ext_resource type="Texture2D" uid="uid://baobwcpqaegat" path="res://Speedometer/SpeedFrames/SpeedHand24.png" id="24_g1y4s"]
+[ext_resource type="Texture2D" uid="uid://dwnbu451rwmer" path="res://Speedometer/SpeedFrames/SpeedHand25.png" id="25_ah7je"]
+[ext_resource type="Texture2D" uid="uid://b3speofnrayn" path="res://Speedometer/SpeedFrames/SpeedHand26.png" id="26_gqq52"]
+[ext_resource type="Texture2D" uid="uid://cxua1oicqsowo" path="res://Speedometer/SpeedFrames/SpeedHand27.png" id="27_rwx0m"]
+[ext_resource type="Texture2D" uid="uid://ddk3ronq3rtnn" path="res://Speedometer/SpeedFrames/SpeedHand28.png" id="28_04g4u"]
+[ext_resource type="Texture2D" uid="uid://32hfkbxyo5gt" path="res://Speedometer/SpeedFrames/SpeedHand29.png" id="29_vbgv6"]
+[ext_resource type="Texture2D" uid="uid://cjhci6ydhq45f" path="res://Speedometer/SpeedFrames/SpeedHand30.png" id="30_mh6qa"]
+[ext_resource type="Texture2D" uid="uid://cc7k6ewbe7gcm" path="res://Speedometer/SpeedFrames/SpeedHand31.png" id="31_03amo"]
+[ext_resource type="Texture2D" uid="uid://cr1v784d5ryv7" path="res://Speedometer/SpeedFrames/SpeedHand32.png" id="32_icotn"]
+[ext_resource type="Texture2D" uid="uid://c4sxuuj5bkrcm" path="res://Speedometer/SpeedFrames/SpeedHand33.png" id="33_61nb6"]
+[ext_resource type="Texture2D" uid="uid://4sugc4hmg6ja" path="res://Speedometer/SpeedFrames/SpeedHand34.png" id="34_n1r7j"]
+[ext_resource type="Texture2D" uid="uid://bkk525hs8me0i" path="res://Speedometer/SpeedFrames/SpeedHand35.png" id="35_mdu5p"]
+[ext_resource type="Texture2D" uid="uid://b88lp56uo6sv2" path="res://Speedometer/SpeedFrames/SpeedHand36.png" id="36_3au0i"]
+[ext_resource type="Texture2D" uid="uid://dfw75vxdd7jtx" path="res://Speedometer/SpeedFrames/SpeedHand37.png" id="37_8vpu2"]
+[ext_resource type="Texture2D" uid="uid://1i76l7sxaioq" path="res://Speedometer/SpeedFrames/SpeedHand38.png" id="38_ier31"]
+[ext_resource type="Texture2D" uid="uid://dv4hm8ngrr15k" path="res://Speedometer/SpeedFrames/SpeedHand39.png" id="39_j2ntc"]
+[ext_resource type="Texture2D" uid="uid://df6frk7j8bgr2" path="res://Speedometer/SpeedFrames/SpeedHand40.png" id="40_am7fa"]
+[ext_resource type="Texture2D" uid="uid://b1do2ii4cvox2" path="res://Speedometer/SpeedFrames/SpeedHand41.png" id="41_idmqs"]
+[ext_resource type="Texture2D" uid="uid://vpr2fa4d7tf1" path="res://Speedometer/SpeedFrames/SpeedHand42.png" id="42_s10ec"]
+[ext_resource type="Texture2D" uid="uid://b2u6xei4f0hp1" path="res://Speedometer/SpeedFrames/SpeedHand43.png" id="43_rmgi5"]
+[ext_resource type="Texture2D" uid="uid://d27edvaa28bdu" path="res://Speedometer/SpeedFrames/SpeedHand44.png" id="44_8m44e"]
+[ext_resource type="Texture2D" uid="uid://c37d5x5b6crjl" path="res://Speedometer/SpeedFrames/SpeedHand45.png" id="45_icbia"]
+[ext_resource type="Texture2D" uid="uid://dx4qkn40rj5qo" path="res://Speedometer/SpeedFrames/SpeedHand46.png" id="46_1nhhl"]
+[ext_resource type="Texture2D" uid="uid://b45cd05a7yh5h" path="res://Speedometer/SpeedFrames/SpeedHand47.png" id="47_aslqb"]
+[ext_resource type="Texture2D" uid="uid://b7yimlwt0wl6b" path="res://Speedometer/SpeedFrames/SpeedHand48.png" id="48_y2v4x"]
+[ext_resource type="Texture2D" uid="uid://c6tse0pl428dn" path="res://Speedometer/SpeedFrames/SpeedHand49.png" id="49_8j0qs"]
+[ext_resource type="Texture2D" uid="uid://cooea8qqipo4q" path="res://Speedometer/SpeedFrames/SpeedHand50.png" id="50_8n722"]
+[ext_resource type="Texture2D" uid="uid://b4fvnnx750tkm" path="res://Speedometer/SpeedFrames/SpeedHand51.png" id="51_8xk2m"]
+[ext_resource type="Texture2D" uid="uid://iitm581dudiq" path="res://Speedometer/SpeedFrames/SpeedHand52.png" id="52_q51o6"]
+[ext_resource type="Texture2D" uid="uid://crvdutuw5dh86" path="res://Speedometer/SpeedFrames/SpeedHand53.png" id="53_kcxrg"]
+[ext_resource type="Texture2D" uid="uid://6tnq50tgxubo" path="res://Speedometer/SpeedFrames/SpeedHand54.png" id="54_3xwbq"]
+[ext_resource type="Texture2D" uid="uid://c6n8y4jsq60gg" path="res://Speedometer/SpeedFrames/SpeedHand55.png" id="55_205jw"]
+[ext_resource type="Texture2D" uid="uid://mlm56bu3l5gu" path="res://Speedometer/SpeedFrames/SpeedHand56.png" id="56_wnn8v"]
+[ext_resource type="Texture2D" uid="uid://dm5rv3t2r1ko3" path="res://Speedometer/SpeedFrames/SpeedHand57.png" id="57_odpny"]
+[ext_resource type="Texture2D" uid="uid://dd3vxku0vlphc" path="res://Speedometer/SpeedFrames/SpeedHand58.png" id="58_ibwfj"]
+[ext_resource type="Texture2D" uid="uid://dopoey1fj13xm" path="res://Speedometer/SpeedFrames/SpeedHand59.png" id="59_lgdx8"]
+[ext_resource type="Texture2D" uid="uid://pnn7v68vv8os" path="res://Speedometer/SpeedFrames/SpeedHand60.png" id="60_sylld"]
+[ext_resource type="Texture2D" uid="uid://r23rxs4lwoq8" path="res://Speedometer/SpeedFrames/SpeedHand61.png" id="61_mucmc"]
+[ext_resource type="Texture2D" uid="uid://bhy2lxydg6hgf" path="res://Speedometer/SpeedFrames/SpeedHand62.png" id="62_0dktw"]
+[ext_resource type="Texture2D" uid="uid://cj8muvvyp0gxb" path="res://Speedometer/SpeedFrames/SpeedHand63.png" id="63_4nrbv"]
+[ext_resource type="Texture2D" uid="uid://cxtyhvbcgsh5h" path="res://Speedometer/SpeedFrames/SpeedHand64.png" id="64_23w6e"]
+[ext_resource type="Texture2D" uid="uid://nfj6dt5c8alb" path="res://Speedometer/SpeedFrames/SpeedHand65.png" id="65_siuls"]
+[ext_resource type="Texture2D" uid="uid://by6jakvlfdy85" path="res://Speedometer/SpeedFrames/SpeedHand66.png" id="66_vgm84"]
+[ext_resource type="Texture2D" uid="uid://dckqh5ujw7m6i" path="res://Speedometer/SpeedFrames/SpeedHand67.png" id="67_funhe"]
+[ext_resource type="Texture2D" uid="uid://p8nxnlg6axb0" path="res://Speedometer/SpeedFrames/SpeedHand68.png" id="68_03elg"]
+[ext_resource type="Texture2D" uid="uid://ru4ptq8q4pdv" path="res://Speedometer/SpeedFrames/SpeedHand69.png" id="69_yd61q"]
+[ext_resource type="Texture2D" uid="uid://bai8ta6uyp3f7" path="res://Speedometer/SpeedFrames/SpeedHand70.png" id="70_7gubc"]
+[ext_resource type="Texture2D" uid="uid://bdcvfnn42k4m" path="res://Speedometer/SpeedFrames/SpeedHand71.png" id="71_1hoc0"]
+[ext_resource type="Texture2D" uid="uid://cfgtgwsy87u52" path="res://Speedometer/SpeedFrames/SpeedHand72.png" id="72_xi0ij"]
+[ext_resource type="Texture2D" uid="uid://d35w4bfid13ki" path="res://Speedometer/SpeedFrames/SpeedHand73.png" id="73_5eyu0"]
+[ext_resource type="Texture2D" uid="uid://bj4s6a306m5rg" path="res://Speedometer/SpeedFrames/SpeedHand74.png" id="74_dmv7c"]
+[ext_resource type="Texture2D" uid="uid://ct55y67yl731q" path="res://Speedometer/SpeedFrames/SpeedHand75.png" id="75_k8o2j"]
+[ext_resource type="Texture2D" uid="uid://digwijwuy6ane" path="res://Speedometer/SpeedFrames/SpeedHand76.png" id="76_plfqb"]
+[ext_resource type="Texture2D" uid="uid://73kejbu0mjf1" path="res://Speedometer/SpeedFrames/SpeedHand77.png" id="77_up1bp"]
+[ext_resource type="Texture2D" uid="uid://bv6krv5uq8jnj" path="res://Speedometer/SpeedFrames/SpeedHand78.png" id="78_l8n4x"]
+[ext_resource type="Script" uid="uid://e2uc5h8cr5jp" path="res://Speedometer/SpeedLogic.gd" id="79_wm5dt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c36b8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7ggnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_y23jb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hjhs7")
+}, {
+"duration": 0.1,
+"texture": ExtResource("4_5kpi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3u168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f2c3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fb34l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_5kjuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_oeyny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_w5472")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_20jcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mpsnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_umura")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qi2at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lry6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_c4g6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_c25so")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_w3dwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_af5rd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_5h0pf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_aqyst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_dfubo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_pcn06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_g1y4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ah7je")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gqq52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_rwx0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_04g4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_vbgv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_mh6qa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_03amo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_icotn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_61nb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_n1r7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_mdu5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_3au0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_8vpu2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ier31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_j2ntc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_am7fa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_idmqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_s10ec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_rmgi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_8m44e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_icbia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_1nhhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_aslqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_y2v4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_8j0qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_8n722")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_8xk2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_q51o6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_kcxrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_3xwbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_205jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_wnn8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_odpny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_ibwfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_lgdx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_sylld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_mucmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_0dktw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_4nrbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_23w6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_siuls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_vgm84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_funhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_03elg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_yd61q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_7gubc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_1hoc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_xi0ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_5eyu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_dmv7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_k8o2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_plfqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_up1bp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_l8n4x")
+}],
+"loop": 2,
+"name": &"Speed",
+"speed": 70.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=655613010]
+
+[node name="PingPong" type="AnimatedSprite2D" parent="." unique_id=1297757614]
+position = Vector2(0, 150)
+scale = Vector2(10, 10)
+sprite_frames = SubResource("SpriteFrames_c36b8")
+animation = &"Speed"
+autoplay = "Speed"
+frame = 23
+frame_progress = 0.5456621
+script = ExtResource("79_wm5dt")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=649149247]

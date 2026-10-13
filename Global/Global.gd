@@ -5,6 +5,8 @@ var hatch = 0
 
 var slider = 0
 
+var speed = 0
+
 var P = 1
 
 var TM = 60
@@ -13,6 +15,6 @@ func _on_timer_timeout() -> void:
 	TM -= 1
 	print(TM)
 	
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if TM == 0:
 		TimerGlobal.stop()

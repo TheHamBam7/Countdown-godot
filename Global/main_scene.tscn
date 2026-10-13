@@ -1,11 +1,14 @@
 [gd_scene format=4 uid="uid://b88md5vk40b6s"]
 
 [ext_resource type="Texture2D" uid="uid://7bvahuisb6gh" path="res://Libresprite/Rocket window.png" id="1_a3cwi"]
+[ext_resource type="Script" uid="uid://dr7wv2a3t4ufv" path="res://Global/MainScene.gd" id="1_ccwrp"]
 [ext_resource type="Texture2D" uid="uid://cge8caec8egwo" path="res://Libresprite/Controldone.png" id="2_fyno0"]
 [ext_resource type="Texture2D" uid="uid://rv4qrexxqtfa" path="res://Libresprite/images.png" id="3_ccwrp"]
 [ext_resource type="Script" uid="uid://52f81660ehik" path="res://Hatch/hatch.gd" id="4_axow8"]
 [ext_resource type="Script" uid="uid://bjdc5iaebmtka" path="res://Global/TM.gd" id="5_un5vx"]
 [ext_resource type="Script" uid="uid://c1bn2xu6bxlfp" path="res://Sliders/slider.gd" id="6_a3cwi"]
+[ext_resource type="Script" uid="uid://dxlisx5t6ske6" path="res://Speedometer/Speed.gd" id="8_axow8"]
+[ext_resource type="Texture2D" uid="uid://btin2w4nba744" path="res://Libresprite/Checkmark.png" id="8_ccwrp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d5x1h"]
 texture = ExtResource("3_ccwrp")
@@ -210,6 +213,7 @@ texture = ExtResource("3_ccwrp")
 sources/0 = SubResource("TileSetAtlasSource_d5x1h")
 
 [node name="Main Scene" type="Node2D" unique_id=436811397]
+script = ExtResource("1_ccwrp")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=419930707]
 
@@ -253,6 +257,25 @@ offset_bottom = 230.0
 flat = true
 script = ExtResource("6_a3cwi")
 
+[node name="Speed" type="Button" parent="." unique_id=916604608]
+offset_left = -242.0
+offset_top = 84.0
+offset_right = -119.0
+offset_bottom = 176.0
+flat = true
+script = ExtResource("8_axow8")
+
+[node name="SlidersDone" type="Sprite2D" parent="." unique_id=1048828279]
+position = Vector2(-7, 155)
+scale = Vector2(2.890625, 2.78125)
+texture = ExtResource("8_ccwrp")
+
+[node name="HatchDone" type="Sprite2D" parent="." unique_id=460712246]
+position = Vector2(-6, 266)
+scale = Vector2(1.9218749, 1.7499999)
+texture = ExtResource("8_ccwrp")
+
 [connection signal="pressed" from="Hatch" to="Hatch" method="_on_pressed"]
 [connection signal="pressed" from="Slider" to="Hatch" method="_on_button_pressed"]
 [connection signal="pressed" from="Slider" to="Slider" method="_on_pressed"]
+[connection signal="pressed" from="Speed" to="Speed" method="_on_pressed"]

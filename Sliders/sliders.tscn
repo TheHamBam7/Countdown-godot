@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dcngitl2cyxln"]
 
-[ext_resource type="Script" uid="uid://cre8p6xlg5rku" path="res://Sliders/Sliders.gd" id="1_bvrrn"]
+[ext_resource type="Script" uid="uid://cre8p6xlg5rku" path="res://Sliders/SlidersLogic.gd" id="1_bvrrn"]
 [ext_resource type="Texture2D" uid="uid://cw4xrxdmx84v2" path="res://Libresprite/Dragdot.png" id="1_wxq8j"]
 [ext_resource type="Texture2D" uid="uid://3ly63k0s7rs7" path="res://Libresprite/Dragline.png" id="2_bvrrn"]
 [ext_resource type="Script" uid="uid://btxhu2ox3wv5" path="res://Sliders/HoldCountdown.gd" id="4_tegda"]

@@ -28,14 +28,14 @@ func _process(_delta: float) -> void:
 			pass
 		else: $Timer.start()
 		time_started = true
-		$HoldSlidersThere.modulate.a = 1
+		$HoldSlidersThere.visible = true
 	elif time_started == true and S1V >= 99 and S2V >= 99 and S3V >= 99:
 			pass
 	elif time_started == true or S1V <= 99 or S2V <= 99 or S3V <= 99:
 		$Timer.stop()
 		print("stop")
 		time_started = false
-		$HoldSlidersThere.modulate.a = 0
+		$HoldSlidersThere.visible = false
 
 func _on_timer_timeout() -> void:
 	get_tree().change_scene_to_file("res://Global/main_scene.tscn")
